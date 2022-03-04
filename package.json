@@ -49,5 +49,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://app-9f355f19-90a4-4e35-ade0-3982076a7ad4.cleverapps.io/formations"
+  "proxy": "https://app-9f355f19-90a4-4e35-ade0-3982076a7ad4.cleverapps.io/formations",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
 }

@@ -8,7 +8,7 @@ import {
 } from 'react-admin';
 
 const EnseignantEdit = (props) => (
-  <Edit {...props} title='Edit of Formation'>
+  <Edit {...props} title="Edition d'ensignant">
     <SimpleForm>
       <TextInput disabled source='id' />
       <TextInput disabled source='codeFormation' />

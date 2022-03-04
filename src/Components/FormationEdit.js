@@ -8,7 +8,7 @@ import {
 } from 'react-admin';
 
 const FormationEdit = (props) => (
-  <Edit {...props} title='Edit of Formation'>
+  <Edit {...props} title="Edition d'une formation">
     <SimpleForm>
       <TextInput disabled source='id' />
       <TextInput disabled source='codeFormation' />

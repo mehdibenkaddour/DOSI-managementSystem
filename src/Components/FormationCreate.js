@@ -9,7 +9,7 @@ import {
 } from 'react-admin';
 
 const FormationCreate = (props) => (
-  <Create {...props} title='Creation of Formation'>
+  <Create {...props} title="Creation d'une Formation">
     <SimpleForm>
       <TextInput source='codeFormation' />
       <TextInput source='nomFormation' />

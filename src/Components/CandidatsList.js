@@ -9,7 +9,7 @@ const ListActions = (props) => (
 );
 
 const CandidatsList = (props) => (
-  <List {...props} title='List of Formations' actions={<ListActions/>}>
+  <List {...props} title='Listes des candidats' actions={<ListActions/>}>
     <Datagrid>
       <TextField disabled source='noCandidat' />
       <TextField source='nom' />

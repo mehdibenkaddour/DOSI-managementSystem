@@ -9,7 +9,7 @@ import {
 } from 'react-admin';
 
 const EnseignantCreate = (props) => (
-  <Create {...props} title='Creation Enseignant'>
+  <Create {...props} title="Creation d'Enseignant'">
     <SimpleForm>
       <TextInput source='adresse' />
       <TextInput source='codePostal' />
